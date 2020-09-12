@@ -1,0 +1,3453 @@
+{
+	"vulasReport": {
+		"generatedAt": "15.05.2020 22:27:45",
+		"generatedFor": {
+			"space": "9237B647D37B9176837CB401EE2922F6",
+			"groupId": "org.openmrs",
+			"artifactId": "openmrs",
+			"version": "2.3.0"
+		},
+		"isAggregated": true,
+	
+				"aggregatedModules": [
+											{
+					"groupId": "org.openmrs.web",
+					"artifactId": "openmrs-webapp",
+					"version": "2.3.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs",
+					"artifactId": "openmrs",
+					"version": "2.3.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs.test",
+					"artifactId": "openmrs-test",
+					"version": "2.3.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs.web",
+					"artifactId": "openmrs-web",
+					"version": "2.3.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs.api",
+					"artifactId": "openmrs-api",
+					"version": "2.3.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs.tools",
+					"artifactId": "openmrs-tools",
+					"version": "2.3.0"
+				}
+					],
+			
+		"configuration": [
+			{ "name": "exceptionThreshold",
+			  "value": "dependsOn" },
+			{ "name": "exceptionScopeBlacklist",
+			  "value": "TEST, PROVIDED" },
+			{ "name": "exceptionExcludedBugs",
+			  "value": "" }
+		],
+	
+		"vulnerabilities": [
+		
+								{
+		
+			"bug":{
+				"id":"CVE-2018-20433",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "c3p0-0.9.2.1.jar",
+			"sha1": "11B29CCB286D34EB804B7F6A3786809C9BD2E1B7",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2019-5427",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "c3p0-0.9.2.1.jar",
+			"sha1": "11B29CCB286D34EB804B7F6A3786809C9BD2E1B7",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"BEANUTILS-463",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-beanutils-1.9.3.jar",
+			"sha1": "C845703DE334DDC6B4B3CD26835458CB1CBA1F3D",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"COLLECTIONS-580",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-collections-3.2.2.jar",
+			"sha1": "8AD72FE39FA8C91EAAF12AADB21E0C3661FE26D5",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"COLLECTIONS-580",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-collections4-4.1.jar",
+			"sha1": "A4CF4688FE1C7E3A63AA636CC96D013AF537768E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-2186",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.3.3.jar",
+			"sha1": "04FF14D809195B711FD6BCC87E6777F886730CA1",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0050",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.3.3.jar",
+			"sha1": "04FF14D809195B711FD6BCC87E6777F886730CA1",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-1000031",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.3.3.jar",
+			"sha1": "04FF14D809195B711FD6BCC87E6777F886730CA1",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-3092-FU",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.3.3.jar",
+			"sha1": "04FF14D809195B711FD6BCC87E6777F886730CA1",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1000632",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "dom4j-1.6.1.jar",
+			"sha1": "5D3CCC056B6F056DBF0DDDFDF43894B9065A8F94",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-3253",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "groovy-all-2.4.6.jar",
+			"sha1": "478FEADCA929A946B2F1FB962BB2179264759821",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-6814",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "groovy-all-2.4.6.jar",
+			"sha1": "478FEADCA929A946B2F1FB962BB2179264759821",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3558",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "hibernate-validator-4.2.0.Final.jar",
+			"sha1": "EAC2DB0A9D86A9749724FE93D43AFFFA8106F25E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-17485",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.9.8.jar",
+			"sha1": "11283F21CC480AA86C4DF7A0A3243EC508372ED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-4995-JK",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.9.8.jar",
+			"sha1": "11283F21CC480AA86C4DF7A0A3243EC508372ED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-7525",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.9.8.jar",
+			"sha1": "11283F21CC480AA86C4DF7A0A3243EC508372ED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-12022",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.9.8.jar",
+			"sha1": "11283F21CC480AA86C4DF7A0A3243EC508372ED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-12023",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.9.8.jar",
+			"sha1": "11283F21CC480AA86C4DF7A0A3243EC508372ED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-5968",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.9.8.jar",
+			"sha1": "11283F21CC480AA86C4DF7A0A3243EC508372ED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-7489",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.9.8.jar",
+			"sha1": "11283F21CC480AA86C4DF7A0A3243EC508372ED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-12629",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "lucene-queryparser-4.10.4.jar",
+			"sha1": "432D1E1B0AA99695BCAADF49C380C87B17A6F01B",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3523",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.45.jar",
+			"sha1": "EE64EC436A87C35362176EA300D69C912D1CBEAC",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3586",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.45.jar",
+			"sha1": "EE64EC436A87C35362176EA300D69C912D1CBEAC",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-10936",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "postgresql-9.0-801.jdbc4.jar",
+			"sha1": "153F2F92A786F12FC111D0111F709012DF87C808",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-6429",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-core-4.1.4.RELEASE.jar",
+			"sha1": "8DF582421867CF7298658E00CD2E9E460B697B05",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1272",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-core-4.1.4.RELEASE.jar",
+			"sha1": "8DF582421867CF7298658E00CD2E9E460B697B05",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"SPR-7779",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-core-4.1.4.RELEASE.jar",
+			"sha1": "8DF582421867CF7298658E00CD2E9E460B697B05",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1270",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-expression-4.1.4.RELEASE.jar",
+			"sha1": "89109BC913900CEFF3107AD66EDB60D1ACB3AED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1275",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-expression-4.1.4.RELEASE.jar",
+			"sha1": "89109BC913900CEFF3107AD66EDB60D1ACB3AED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0054",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-oxm-4.1.4.RELEASE.jar",
+			"sha1": "72C75E53B7EC187D9566F750A8092CD07D28E81C",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3578",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-oxm-4.1.4.RELEASE.jar",
+			"sha1": "72C75E53B7EC187D9566F750A8092CD07D28E81C",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-3192",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-oxm-4.1.4.RELEASE.jar",
+			"sha1": "72C75E53B7EC187D9566F750A8092CD07D28E81C",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2011-2730",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-test-4.1.4.RELEASE.jar",
+			"sha1": "32878E9AC8B78D0E41821B832C34B9EB1580417A",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-6429",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-4.1.4.RELEASE.jar",
+			"sha1": "7404DE727A6B07634B55E9B7788E89CB76785932",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-6430",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-4.1.4.RELEASE.jar",
+			"sha1": "7404DE727A6B07634B55E9B7788E89CB76785932",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0054",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-4.1.4.RELEASE.jar",
+			"sha1": "7404DE727A6B07634B55E9B7788E89CB76785932",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3578",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-4.1.4.RELEASE.jar",
+			"sha1": "7404DE727A6B07634B55E9B7788E89CB76785932",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-3192",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-4.1.4.RELEASE.jar",
+			"sha1": "7404DE727A6B07634B55E9B7788E89CB76785932",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-5211",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-4.1.4.RELEASE.jar",
+			"sha1": "7404DE727A6B07634B55E9B7788E89CB76785932",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-11039",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-4.1.4.RELEASE.jar",
+			"sha1": "7404DE727A6B07634B55E9B7788E89CB76785932",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3625",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-4.1.4.RELEASE.jar",
+			"sha1": "77C2BE19C80BC4B73C7EDCAFAFF6C3D1BABEA103",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-5211",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-4.1.4.RELEASE.jar",
+			"sha1": "77C2BE19C80BC4B73C7EDCAFAFF6C3D1BABEA103",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1271",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-4.1.4.RELEASE.jar",
+			"sha1": "77C2BE19C80BC4B73C7EDCAFAFF6C3D1BABEA103",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"SPR-7779",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-4.1.4.RELEASE.jar",
+			"sha1": "77C2BE19C80BC4B73C7EDCAFAFF6C3D1BABEA103",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-0899",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "struts-core-1.3.8.jar",
+			"sha1": "66178D4A9279EBB1CD1EB79C10DC204B4199F061",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-1181",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "struts-core-1.3.8.jar",
+			"sha1": "66178D4A9279EBB1CD1EB79C10DC204B4199F061",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-1182",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "struts-core-1.3.8.jar",
+			"sha1": "66178D4A9279EBB1CD1EB79C10DC204B4199F061",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2009-2625",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.8.0.jar",
+			"sha1": "CFD3EBE2F8034E660344F9108C3E2DAF78C29CC3",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2012-0881",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.8.0.jar",
+			"sha1": "CFD3EBE2F8034E660344F9108C3E2DAF78C29CC3",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-4002",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.8.0.jar",
+			"sha1": "CFD3EBE2F8034E660344F9108C3E2DAF78C29CC3",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-7285",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xstream-1.4.11.1.jar",
+			"sha1": "6C120C45A8C480BB2FEA5B56502E3993DDD74FD2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-3674",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xstream-1.4.11.1.jar",
+			"sha1": "6C120C45A8C480BB2FEA5B56502E3993DDD74FD2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-7957",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xstream-1.4.11.1.jar",
+			"sha1": "6C120C45A8C480BB2FEA5B56502E3993DDD74FD2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+				]
+	}
+}
