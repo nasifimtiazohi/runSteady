@@ -1,0 +1,987 @@
+{
+	"vulasReport": {
+		"generatedAt": "13.09.2020 11:11:08",
+		"generatedFor": {
+			"space": "9237B647D37B9176837CB401EE2922F6",
+			"groupId": "org.openmrs.contrib",
+			"artifactId": "uitestframework",
+			"version": "2.3.0"
+		},
+		"isAggregated": false,
+	
+				"aggregatedModules": [],
+			
+		"configuration": [
+			{ "name": "exceptionThreshold",
+			  "value": "dependsOn" },
+			{ "name": "exceptionScopeBlacklist",
+			  "value": "TEST, PROVIDED" },
+			{ "name": "exceptionExcludedBugs",
+			  "value": "" }
+		],
+	
+		"vulnerabilities": [
+		
+								{
+		
+			"bug":{
+				"id":"COLLECTIONS-580",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-collections-3.2.1.jar",
+			"sha1": "761EA405B9B37CED573D2DF0D1E3A4E0F9EDC668",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-10237",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "guava-14.0.1.jar",
+			"sha1": "69E12F4C6AEAC392555F1EA86FAB82B5E5E31AD4",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2011-1498",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "httpclient-4.5.1.jar",
+			"sha1": "7E3CECC566DF91338C6C67883B89DDD05A17DB43",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2012-6153",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "httpclient-4.5.1.jar",
+			"sha1": "7E3CECC566DF91338C6C67883B89DDD05A17DB43",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-4366",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "httpclient-4.5.1.jar",
+			"sha1": "7E3CECC566DF91338C6C67883B89DDD05A17DB43",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-5262",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "httpclient-4.5.1.jar",
+			"sha1": "7E3CECC566DF91338C6C67883B89DDD05A17DB43",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"HTTPCLIENT-1803",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "httpclient-4.5.1.jar",
+			"sha1": "7E3CECC566DF91338C6C67883B89DDD05A17DB43",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-17485",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.2.3.jar",
+			"sha1": "03AE380888029DAEFB91D3ECDCA3A37D8CB92BC9",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-4995-JK",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.2.3.jar",
+			"sha1": "03AE380888029DAEFB91D3ECDCA3A37D8CB92BC9",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-7525",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.2.3.jar",
+			"sha1": "03AE380888029DAEFB91D3ECDCA3A37D8CB92BC9",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-12022",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.2.3.jar",
+			"sha1": "03AE380888029DAEFB91D3ECDCA3A37D8CB92BC9",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-12023",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.2.3.jar",
+			"sha1": "03AE380888029DAEFB91D3ECDCA3A37D8CB92BC9",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-5968",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.2.3.jar",
+			"sha1": "03AE380888029DAEFB91D3ECDCA3A37D8CB92BC9",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-7489",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jackson-databind-2.2.3.jar",
+			"sha1": "03AE380888029DAEFB91D3ECDCA3A37D8CB92BC9",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2011-4461-JETTY",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-2080",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-4800",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-9735",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-12536",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2019-10241",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2019-10246",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"PT-2013-65",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jetty-util-9.2.12.v20150709.jar",
+			"sha1": "D99D38ADFDB5EC677643F04FA862554B0BB8B42E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3523",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.25.jar",
+			"sha1": "6B2835D687A706678591FEBFD47B077DCCE41595",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3586",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.25.jar",
+			"sha1": "6B2835D687A706678591FEBFD47B077DCCE41595",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3488",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "netty-3.5.2.Final.jar",
+			"sha1": "E6FB74A0699ABE108969B2EC1F269391169A0426",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-2156",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "netty-3.5.2.Final.jar",
+			"sha1": "E6FB74A0699ABE108969B2EC1F269391169A0426",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-1000487",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "plexus-utils-1.5.6.jar",
+			"sha1": "8FB6B798A4036048B3005E058553BF21A87802ED",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0107",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xalan-2.7.2.jar",
+			"sha1": "D55D3F02A56EC4C25695FE67E1334FF8C2ECEA23",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2009-2625",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.11.0.jar",
+			"sha1": "9BB329DB1CFC4E22462C9D6B43A8432F5850E92C",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2012-0881",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.11.0.jar",
+			"sha1": "9BB329DB1CFC4E22462C9D6B43A8432F5850E92C",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-4002",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.11.0.jar",
+			"sha1": "9BB329DB1CFC4E22462C9D6B43A8432F5850E92C",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.contrib",
+				"artifactId": "uitestframework",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.contrib/uitestframework/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+				]
+	}
+}

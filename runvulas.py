@@ -40,11 +40,16 @@ def run(path):
     
     start = datetime.now()
     file.write(str(datetime.now())+'\n')
+    print(start)
+
     for c in commands:
-        os.system(c + ' > vulasoutputlog.txt')
+        os.system(c + ' > /dev/null 2>&1')
         file.write(str(datetime.now())+'\n')
+        print(c, "has ended")
+    
     end=datetime.now()
     file.write(str(end-start))
+    print(end)
     
     os.system('mv ./target/vulas/report/vulas-report.json /home/simtiaz/runSteady/reports/{}-vulas.json'.format(project))
     file.close()
@@ -54,7 +59,6 @@ if __name__=='__main__':
     paths = get_projects()
     startime = datetime.now()
     for path in paths:
-        os.system('reset')
         run(path)
     endtime=datetime.now()
     print(startime,endtime)
