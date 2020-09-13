@@ -9,7 +9,7 @@ def get_projects():
     
     lines = subprocess.check_output(shlex.split('ls'), encoding='437').split('\n')[:-1]
     for line in lines:
-        projectPaths.append(path+'/'+line+'/')
+        projectPaths.append(path+'/'+line)
     
     assert len(projectPaths) == 43
     return projectPaths 
@@ -18,7 +18,7 @@ def get_projects():
 
 def run(path):
     project= path.split('/')[-1]
-    print(project)
+    print("project name is", project, path)
     
     commands=[
         'mvn -Dvulas vulas:cleanSpace',
@@ -38,15 +38,16 @@ def run(path):
     file = open('{}log.txt'.format(project),'w+')
     
     start = datetime.now()
-    print(datetime.now())
+    file.write(datetime.now())
     for c in commands:
         os.system(c)
-        print(datetime.now())
+        file.write(datetime.now())
     end=datetime.now()
-    print(end-start)
+    file.write(end-start)
     
     os.system('mv ./target/vulas/report/vulas-report.json /home/simtiaz/runSteady/{}-vulas.json'.format(project))
 
+    file.close()
 if __name__=='__main__':
     paths = get_projects()
     for path in paths:
