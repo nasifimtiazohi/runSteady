@@ -35,21 +35,22 @@ def run(path):
     
     os.chdir(path)
     
-    file = open('{}log.txt'.format(project),'w+')
+    logfileName= '{}log.txt'.format(project)
+    file = open('logfileName','w+')
     
     start = datetime.now()
-    file.write(str(datetime.now()))
+    file.write(str(datetime.now())+'\n')
     for c in commands:
         os.system(c)
-        file.write(str(datetime.now()))
+        file.write(str(datetime.now())+'\n')
     end=datetime.now()
     file.write(str(end-start))
     
-    os.system('mv ./target/vulas/report/vulas-report.json /home/simtiaz/runSteady/{}-vulas.json'.format(project))
-
+    os.system('mv ./target/vulas/report/vulas-report.json /home/simtiaz/runSteady/reports/{}-vulas.json'.format(project))
     file.close()
+    os.system('mv ./{} /home/simtiaz/runSteady/reports/{}'.format(logfileName, logfileName))
+    
 if __name__=='__main__':
     paths = get_projects()
     for path in paths:
         run(path)
-        break
