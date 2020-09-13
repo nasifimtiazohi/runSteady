@@ -38,7 +38,7 @@ def readPom(file):
 
     return hm
 def getRepoReleaseMapping():
-    projects = readPom('/Users/nasifimtiaz/Desktop/vulnerable-dependency-detection-comparison/distro_information/pom.xml')
+    projects = readPom('/home/simtiaz/runSteady/pom.xml')
     hm={}
     
     for k  in projects.keys():
@@ -50,8 +50,9 @@ def getRepoReleaseMapping():
     return hm
 
 if __name__=='__main__':
-    os.chdir('/home/simtiaz/openmrsCopyRepos')
     hm=getRepoReleaseMapping()
+    
+    os.chdir('/home/simtiaz/openmrsCopyRepos')
     for repo in hm.keys():
         if repo=='openmrs-owa-sysadmin':
             continue
