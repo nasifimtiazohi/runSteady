@@ -41,7 +41,7 @@ def run(path):
     start = datetime.now()
     file.write(str(datetime.now())+'\n')
     for c in commands:
-        os.system(c)
+        os.system(c + ' > vulasoutputlog.txt')
         file.write(str(datetime.now())+'\n')
     end=datetime.now()
     file.write(str(end-start))
