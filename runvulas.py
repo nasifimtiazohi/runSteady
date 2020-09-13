@@ -18,6 +18,7 @@ def get_projects():
 
 def run(path):
     project= path.split('/')[-1]
+    print(project)
     
     commands=[
         'mvn -Dvulas vulas:cleanSpace',
