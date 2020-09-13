@@ -38,12 +38,12 @@ def run(path):
     file = open('{}log.txt'.format(project),'w+')
     
     start = datetime.now()
-    file.write(datetime.now())
+    file.write(str(datetime.now()))
     for c in commands:
         os.system(c)
-        file.write(datetime.now())
+        file.write(str(datetime.now()))
     end=datetime.now()
-    file.write(end-start)
+    file.write(str(end-start))
     
     os.system('mv ./target/vulas/report/vulas-report.json /home/simtiaz/runSteady/{}-vulas.json'.format(project))
 
