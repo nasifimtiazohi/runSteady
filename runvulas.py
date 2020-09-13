@@ -54,6 +54,7 @@ if __name__=='__main__':
     paths = get_projects()
     startime = datetime.now()
     for path in paths:
+        os.system('reset')
         run(path)
     endtime=datetime.now()
     print(startime,endtime)
