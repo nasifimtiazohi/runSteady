@@ -35,8 +35,8 @@ def run(path):
     
     os.chdir(path)
     
-    logfileName= '{}log.txt'.format(project)
-    file = open('logfileName','w+')
+    logfileName= '{}-log.txt'.format(project)
+    file = open(logfileName,'w+')
     
     start = datetime.now()
     file.write(str(datetime.now())+'\n')
@@ -52,5 +52,8 @@ def run(path):
     
 if __name__=='__main__':
     paths = get_projects()
+    startime = datetime.now()
     for path in paths:
         run(path)
+    endtime=datetime.now()
+    print(startime,endtime)
