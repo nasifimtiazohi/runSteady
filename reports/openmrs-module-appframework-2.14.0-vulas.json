@@ -1,31 +1,37 @@
 {
 	"vulasReport": {
-		"generatedAt": "13.09.2020 15:26:56",
+		"generatedAt": "13.09.2020 15:37:46",
 		"generatedFor": {
 			"space": "9237B647D37B9176837CB401EE2922F6",
 			"groupId": "org.openmrs.module",
-			"artifactId": "addresshierarchy",
-			"version": "2.11.0"
+			"artifactId": "appframework",
+			"version": "2.14.0"
 		},
 		"isAggregated": true,
 	
 				"aggregatedModules": [
 											{
 					"groupId": "org.openmrs.module",
-					"artifactId": "addresshierarchy-omod",
-					"version": "2.11.0"
+					"artifactId": "appframework",
+					"version": "2.14.0"
 				}
 											,
 								{
 					"groupId": "org.openmrs.module",
-					"artifactId": "addresshierarchy",
-					"version": "2.11.0"
+					"artifactId": "appframework-api",
+					"version": "2.14.0"
 				}
 											,
 								{
 					"groupId": "org.openmrs.module",
-					"artifactId": "addresshierarchy-api",
-					"version": "2.11.0"
+					"artifactId": "appframework-omod",
+					"version": "2.14.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs.module",
+					"artifactId": "appframework-appsfortesting",
+					"version": "2.14.0"
 				}
 					],
 			
@@ -54,10 +60,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -85,10 +91,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -116,17 +122,17 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -147,17 +153,17 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -178,10 +184,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -209,10 +215,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -240,10 +246,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -271,10 +277,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -302,10 +308,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -333,72 +339,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-						]
-		}
-								,
-						{
-		
-			"bug":{
-				"id":"CVE-2015-3253",
-				"cvssScore": "n/a" ,
-				"cvssVersion": "n/a" 			},
-			"filename": "groovy-all-1.7.6.jar",
-			"sha1": "5F9439657FD8811714DB7A7FECE9744E63831584",
-			
-			"modules": [
-										
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-						]
-		}
-								,
-						{
-		
-			"bug":{
-				"id":"CVE-2016-6814",
-				"cvssScore": "n/a" ,
-				"cvssVersion": "n/a" 			},
-			"filename": "groovy-all-1.7.6.jar",
-			"sha1": "5F9439657FD8811714DB7A7FECE9744E63831584",
-			
-			"modules": [
-										
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -426,10 +370,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -457,10 +401,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -488,10 +432,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -519,10 +463,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -550,10 +494,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -581,10 +525,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -612,10 +556,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -643,10 +587,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -674,10 +618,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -705,10 +649,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -736,10 +680,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -767,10 +711,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -798,10 +742,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -829,10 +773,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -860,10 +804,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -891,10 +835,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -922,10 +866,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -953,10 +897,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -984,10 +928,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1015,10 +959,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1046,10 +990,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1077,10 +1021,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1108,10 +1052,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1139,10 +1083,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1170,10 +1114,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1201,10 +1145,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1232,10 +1176,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1263,10 +1207,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1294,10 +1238,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1325,10 +1269,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1356,17 +1300,17 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -1387,17 +1331,17 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -1418,17 +1362,17 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "addresshierarchy-api",
-				"version": "2.11.0",
+				"artifactId": "appframework-api",
+				"version": "2.14.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/addresshierarchy-api/2.11.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appframework-api/2.14.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
