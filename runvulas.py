@@ -14,7 +14,27 @@ def get_projects():
     assert len(projectPaths) == 43
     return projectPaths 
 
+def get_processed_projects():
+    paths=[]
+    path='/home/simtiaz/runSteady/reports'
+    os.chdir(path)
     
+    hs=set()
+    
+    lines = subprocess.check_output(shlex.split('ls'), encoding='437').split('\n')[:-1]
+    
+    for line in lines:
+        s = 'log.txt'
+        if line.endswith(s):
+           project = line[:-len(s)]
+           hs.add(s)
+        
+        s = 'vulas.json'
+        if line.endswith(s):
+           project = line[:-len(s)]
+           hs.add(s)
+    
+    return hs
 
 def run(path):
     project= path.split('/')[-1]
@@ -57,8 +77,12 @@ def run(path):
     
 if __name__=='__main__':
     paths = get_projects()
-    startime = datetime.now()
+    processed_projects= get_processed_projects()
+    
     for path in paths:
+        name = path.split('/')[-1]
+        if name in processed_projects:
+            continue
+        
         run(path)
-    endtime=datetime.now()
-    print(startime,endtime)
+    
