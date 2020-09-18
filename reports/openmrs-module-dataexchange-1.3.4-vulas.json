@@ -1,0 +1,45 @@
+{
+	"vulasReport": {
+		"generatedAt": "17.09.2020 12:59:52",
+		"generatedFor": {
+			"space": "9237B647D37B9176837CB401EE2922F6",
+			"groupId": "org.openmrs.module",
+			"artifactId": "dataexchange",
+			"version": "1.3.4"
+		},
+		"isAggregated": true,
+	
+				"aggregatedModules": [
+											{
+					"groupId": "org.openmrs.module",
+					"artifactId": "dataexchange-omod",
+					"version": "1.3.4"
+				}
+											,
+								{
+					"groupId": "org.openmrs.module",
+					"artifactId": "dataexchange",
+					"version": "1.3.4"
+				}
+											,
+								{
+					"groupId": "org.openmrs.module",
+					"artifactId": "dataexchange-api",
+					"version": "1.3.4"
+				}
+					],
+			
+		"configuration": [
+			{ "name": "exceptionThreshold",
+			  "value": "dependsOn" },
+			{ "name": "exceptionScopeBlacklist",
+			  "value": "TEST, PROVIDED" },
+			{ "name": "exceptionExcludedBugs",
+			  "value": "" }
+		],
+	
+		"vulnerabilities": [
+		
+				]
+	}
+}

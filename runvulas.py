@@ -24,21 +24,21 @@ def get_processed_projects():
     lines = subprocess.check_output(shlex.split('ls'), encoding='437').split('\n')[:-1]
     
     for line in lines:
-        s = 'log.txt'
+        s = '-log.txt'
         if line.endswith(s):
            project = line[:-len(s)]
-           hs.add(s)
+           hs.add(project)
         
-        s = 'vulas.json'
+        s = '-vulas.json'
         if line.endswith(s):
            project = line[:-len(s)]
-           hs.add(s)
+           hs.add(project)
     
     return hs
 
 def run(path):
     project= path.split('/')[-1]
-    print("project name is", project, path)
+    print("processing ", project, path)
     
     commands=[
         'mvn -Dvulas vulas:cleanSpace',
@@ -63,7 +63,8 @@ def run(path):
     print(start)
 
     for c in commands:
-        os.system(c + ' > /dev/null 2>&1')
+        os.system(c)
+        #os.system(c + ' > /dev/null 2>&1')
         file.write(str(datetime.now())+'\n')
         print(c, "has ended")
     
@@ -78,11 +79,16 @@ def run(path):
 if __name__=='__main__':
     paths = get_projects()
     processed_projects= get_processed_projects()
-    
+        
     for path in paths:
         name = path.split('/')[-1]
+        print(name,path)
         if name in processed_projects:
+            print(name, ' already processed')
             continue
-        
+        if 'openmrs-module-coreapps' in name:
+            print('skipping coreapps as too big in RAM')
+            continue
+
         run(path)
     
