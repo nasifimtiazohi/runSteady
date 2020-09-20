@@ -1,6 +1,6 @@
 {
 	"vulasReport": {
-		"generatedAt": "15.09.2020 12:15:48",
+		"generatedAt": "19.09.2020 20:26:56",
 		"generatedFor": {
 			"space": "9237B647D37B9176837CB401EE2922F6",
 			"groupId": "org.openmrs.module",
@@ -54,6 +54,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -99,6 +118,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -130,6 +168,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -144,6 +201,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -178,6 +254,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -206,6 +301,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -240,6 +354,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -271,6 +404,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -299,6 +451,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -337,6 +508,25 @@
 				"version": "1.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-api/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -426,6 +616,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -471,6 +680,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -502,6 +730,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -516,6 +763,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -564,6 +830,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -578,6 +863,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -626,6 +930,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -640,6 +963,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -688,6 +1030,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -709,6 +1070,25 @@
 				"version": "1.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-api/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -750,6 +1130,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -764,6 +1163,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -798,6 +1216,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -826,6 +1263,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -874,6 +1330,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -905,6 +1380,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -919,6 +1413,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -950,6 +1463,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -998,6 +1530,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1026,6 +1577,25 @@
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -1060,6 +1630,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1091,6 +1680,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1105,6 +1713,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1153,6 +1780,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1167,6 +1813,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1201,6 +1866,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -1229,6 +1913,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1263,6 +1966,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "calculation-api",
 				"version": "1.2",
 				
@@ -1291,6 +2013,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1339,6 +2080,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1353,6 +2113,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1401,6 +2180,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1415,6 +2213,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "calculation-omod",
+				"version": "1.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/calculation-omod/1.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",

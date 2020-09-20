@@ -1,31 +1,31 @@
 {
 	"vulasReport": {
-		"generatedAt": "19.09.2020 20:06:17",
+		"generatedAt": "20.09.2020 03:26:38",
 		"generatedFor": {
 			"space": "9237B647D37B9176837CB401EE2922F6",
-			"groupId": "org.openmrs.module",
-			"artifactId": "appointmentschedulingui",
-			"version": "1.9.0"
+			"groupId": "org.openmrs",
+			"artifactId": "event",
+			"version": "2.7.0"
 		},
 		"isAggregated": true,
 	
 				"aggregatedModules": [
 											{
-					"groupId": "org.openmrs.module",
-					"artifactId": "appointmentschedulingui-omod",
-					"version": "1.9.0"
+					"groupId": "org.openmrs",
+					"artifactId": "event",
+					"version": "2.7.0"
 				}
 											,
 								{
-					"groupId": "org.openmrs.module",
-					"artifactId": "appointmentschedulingui",
-					"version": "1.9.0"
+					"groupId": "org.openmrs",
+					"artifactId": "event-api",
+					"version": "2.7.0"
 				}
 											,
 								{
-					"groupId": "org.openmrs.module",
-					"artifactId": "appointmentschedulingui-api",
-					"version": "1.9.0"
+					"groupId": "org.openmrs",
+					"artifactId": "event-omod",
+					"version": "2.7.0"
 				}
 					],
 			
@@ -43,6 +43,456 @@
 								{
 		
 			"bug":{
+				"id":"CVE-2011-4905",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-1879",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3576",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3600",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3612",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-6524",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-7559",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-3088",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-11775",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "activemq-core-5.4.3.jar",
+			"sha1": "024D650BD3F379CC3DD3DC059438578ED93B2197",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
 				"id":"CVE-2018-20433",
 				"cvssScore": "n/a" ,
 				"cvssVersion": "n/a" 			},
@@ -53,11 +503,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -72,11 +522,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -103,11 +553,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -122,11 +572,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -153,11 +603,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -172,11 +622,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -203,11 +653,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -222,11 +672,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -253,13 +703,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -272,11 +722,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -303,13 +753,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -322,11 +772,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -353,13 +803,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -372,11 +822,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -403,13 +853,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -422,11 +872,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -453,11 +903,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -472,11 +922,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -503,61 +953,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-						]
-		}
-								,
-						{
-		
-			"bug":{
-				"id":"CVE-2015-3253",
-				"cvssScore": "n/a" ,
-				"cvssVersion": "n/a" 			},
-			"filename": "groovy-all-1.7.6.jar",
-			"sha1": "5F9439657FD8811714DB7A7FECE9744E63831584",
-			
-			"modules": [
-										
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -572,61 +972,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-						]
-		}
-								,
-						{
-		
-			"bug":{
-				"id":"CVE-2016-6814",
-				"cvssScore": "n/a" ,
-				"cvssVersion": "n/a" 			},
-			"filename": "groovy-all-1.7.6.jar",
-			"sha1": "5F9439657FD8811714DB7A7FECE9744E63831584",
-			
-			"modules": [
-										
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -653,11 +1003,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -672,13 +1022,63 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-9970",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "jasypt-1.6.jar",
+			"sha1": "1550A512E10A517A557254F15A12392393245610",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
+				
+				"scope": "COMPILE",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -703,11 +1103,30 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -734,11 +1153,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -749,91 +1168,17 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
-						]
-		}
-								,
-						{
-		
-			"bug":{
-				"id":"CVE-2017-3523",
-				"cvssScore": "n/a" ,
-				"cvssVersion": "n/a" 			},
-			"filename": "mysql-connector-java-5.1.6.jar",
-			"sha1": "380EF5226DE2C85FF3B38CBFEFEEA881C5FCE09D",
-			
-			"modules": [
-										
+											,
+							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-						]
-		}
-								,
-						{
-		
-			"bug":{
-				"id":"CVE-2017-3586",
-				"cvssScore": "n/a" ,
-				"cvssVersion": "n/a" 			},
-			"filename": "mysql-connector-java-5.1.6.jar",
-			"sha1": "380EF5226DE2C85FF3B38CBFEFEEA881C5FCE09D",
-			
-			"modules": [
-										
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
-				
-				"scope": "TEST",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-						]
-		}
-								,
-						{
-		
-			"bug":{
-				"id":"CVE-2018-10936",
-				"cvssScore": "n/a" ,
-				"cvssVersion": "n/a" 			},
-			"filename": "postgresql-8.3-603.jdbc4.jar",
-			"sha1": "C1545D956CC2013E8623F7CBC4DE320BE80AC646",
-			
-			"modules": [
-										
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
-				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -858,11 +1203,30 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -889,18 +1253,18 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -908,18 +1272,18 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -939,18 +1303,18 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -958,18 +1322,18 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -989,18 +1353,18 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -1008,18 +1372,18 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -1039,11 +1403,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1058,11 +1422,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1089,11 +1453,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1108,11 +1472,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1139,13 +1503,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1158,11 +1522,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1189,11 +1553,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1208,13 +1572,13 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1239,13 +1603,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1258,11 +1622,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1289,11 +1653,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -1308,11 +1672,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -1339,13 +1703,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1358,11 +1722,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1389,11 +1753,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1408,13 +1772,13 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1439,11 +1803,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1458,13 +1822,13 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1489,13 +1853,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1508,11 +1872,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1539,11 +1903,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1558,13 +1922,13 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1589,11 +1953,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1608,13 +1972,13 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1639,11 +2003,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1658,13 +2022,13 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1689,11 +2053,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1708,13 +2072,13 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1739,13 +2103,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1758,11 +2122,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1789,13 +2153,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1808,11 +2172,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1839,13 +2203,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1858,11 +2222,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1889,13 +2253,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1908,11 +2272,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1939,13 +2303,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1958,11 +2322,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1989,13 +2353,13 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
-				"scope": "TEST",
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -2008,11 +2372,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2039,11 +2403,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2058,11 +2422,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2089,11 +2453,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2108,11 +2472,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2139,11 +2503,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2158,11 +2522,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2189,11 +2553,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2208,11 +2572,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2239,11 +2603,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2258,11 +2622,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2289,11 +2653,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-api",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-api/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2308,11 +2672,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.module",
-				"artifactId": "appointmentschedulingui-api",
-				"version": "1.9.0",
+				"groupId": "org.openmrs",
+				"artifactId": "event-omod",
+				"version": "2.7.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appointmentschedulingui-api/1.9.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs/event-omod/2.7.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,

@@ -1,6 +1,6 @@
 {
 	"vulasReport": {
-		"generatedAt": "13.09.2020 15:21:09",
+		"generatedAt": "19.09.2020 19:45:40",
 		"generatedFor": {
 			"space": "9237B647D37B9176837CB401EE2922F6",
 			"groupId": "org.openmrs",
@@ -71,11 +71,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -84,17 +84,17 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -140,11 +140,11 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -178,11 +178,11 @@
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -191,7 +191,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -228,25 +228,6 @@
 							
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
-													}
-											,
-							
-				{
-			
 				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
@@ -260,7 +241,26 @@
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -297,20 +297,20 @@
 							
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
 											,
 							
@@ -335,20 +335,20 @@
 							
 				{
 			
-				"groupId": "org.openmrs.test",
-				"artifactId": "openmrs-test",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -371,6 +371,25 @@
 				"version": "2.3.0",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -409,25 +428,6 @@
 				"version": "2.3.0",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "TEST",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -486,7 +486,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -536,7 +536,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -555,25 +555,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -587,6 +568,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -605,25 +605,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -637,6 +618,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -654,25 +654,6 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
-													}
-											,
-							
-				{
-			
 				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
@@ -705,7 +686,26 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -723,25 +723,6 @@
 										
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
 				"groupId": "org.openmrs.api",
 				"artifactId": "openmrs-api",
 				"version": "2.3.0",
@@ -755,7 +736,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -766,6 +747,25 @@
 				"version": "2.3.0",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -792,20 +792,20 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -830,20 +830,20 @@
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -880,14 +880,14 @@
 							
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -899,14 +899,14 @@
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -931,6 +931,25 @@
 				{
 			
 				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
@@ -964,25 +983,6 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
 						]
 		}
 								,
@@ -1000,10 +1000,10 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -1019,10 +1019,10 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -1068,14 +1068,14 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1106,14 +1106,14 @@
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1156,14 +1156,14 @@
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1175,14 +1175,14 @@
 							
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1204,25 +1204,6 @@
 			
 			"modules": [
 										
-				{
-			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
 				{
 			
 				"groupId": "org.openmrs.web",
@@ -1252,6 +1233,25 @@
 				
 				"scope": "COMPILE",
 				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1275,25 +1275,6 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
 				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
@@ -1321,6 +1302,25 @@
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1344,14 +1344,14 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1382,14 +1382,14 @@
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1413,20 +1413,20 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
 											,
 							
@@ -1451,20 +1451,20 @@
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
 													}
 						]
 		}
@@ -1533,7 +1533,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -1551,6 +1551,25 @@
 										
 				{
 			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
 				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
@@ -1564,7 +1583,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -1578,25 +1597,6 @@
 				
 				"scope": "RUNTIME",
 				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
-				
-				"scope": "TEST",
-				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1620,25 +1620,6 @@
 										
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "RUNTIME",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
 				"groupId": "org.openmrs.api",
 				"artifactId": "openmrs-api",
 				"version": "2.3.0",
@@ -1658,6 +1639,25 @@
 							
 				{
 			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "RUNTIME",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
 				"groupId": "org.openmrs.test",
 				"artifactId": "openmrs-test",
 				"version": "2.3.0",
@@ -1690,7 +1690,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -1706,44 +1706,6 @@
 			
 			"modules": [
 										
-				{
-			
-				"groupId": "org.openmrs.test",
-				"artifactId": "openmrs-test",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
-													}
-											,
-							
 				{
 			
 				"groupId": "org.openmrs.web",
@@ -1777,6 +1739,44 @@
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.test",
+				"artifactId": "openmrs-test",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.test/openmrs-test/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -1796,6 +1796,44 @@
 										
 				{
 			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
 				"groupId": "org.openmrs.test",
 				"artifactId": "openmrs-test",
 				"version": "2.3.0",
@@ -1823,44 +1861,6 @@
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1884,14 +1884,14 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -1922,6 +1922,25 @@
 							
 				{
 			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
 				"groupId": "org.openmrs.test",
 				"artifactId": "openmrs-test",
 				"version": "2.3.0",
@@ -1934,25 +1953,6 @@
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -1985,7 +1985,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -2073,7 +2073,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -2111,25 +2111,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -2143,6 +2124,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -2161,25 +2161,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
@@ -2187,6 +2168,25 @@
 				
 				"scope": "COMPILE",
 				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -2211,25 +2211,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
@@ -2237,6 +2218,25 @@
 				
 				"scope": "COMPILE",
 				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
@@ -2260,6 +2260,25 @@
 										
 				{
 			
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
 				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
@@ -2273,7 +2292,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
 													}
 											,
 							
@@ -2293,25 +2312,6 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
-				
-				"scope": "TEST",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
 													}
 											,
 							
@@ -2349,25 +2349,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -2381,6 +2362,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -2399,25 +2399,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
@@ -2429,6 +2410,25 @@
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -2449,25 +2449,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -2481,6 +2462,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -2530,7 +2530,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -2549,25 +2549,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -2581,6 +2562,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -2611,7 +2611,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -2661,7 +2661,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
 													}
 											,
 							
@@ -2699,25 +2699,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
@@ -2729,6 +2710,25 @@
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -2761,7 +2761,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
 													}
 											,
 							
@@ -2799,25 +2799,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -2831,6 +2812,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
 													}
 						]
 		}
@@ -2849,25 +2849,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": false,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
@@ -2881,6 +2862,25 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": false,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
 													}
 						]
 		}
@@ -2949,25 +2949,6 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
 				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
@@ -2979,6 +2960,25 @@
 									"containsVulnerableCode": "unknown",
 								
 															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
@@ -3067,6 +3067,25 @@
 							
 				{
 			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-web",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
 				"groupId": "org.openmrs.api",
 				"artifactId": "openmrs-api",
 				"version": "2.3.0",
@@ -3081,25 +3100,6 @@
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
 															"actuallyExecutesVulnerableCode": "nonVulnerableLibraryCode"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
 						]
 		}
@@ -3118,10 +3118,10 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -3137,10 +3137,10 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -3149,7 +3149,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -3199,7 +3199,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -3256,10 +3256,10 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-web",
+				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -3294,10 +3294,10 @@
 				{
 			
 				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
+				"artifactId": "openmrs-web",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-web/2.3.0",
 				
 				"scope": "COMPILE",
 				"isTransitive": true,
@@ -3306,7 +3306,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -3324,20 +3324,20 @@
 										
 				{
 			
-				"groupId": "org.openmrs.api",
-				"artifactId": "openmrs-api",
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": false,
+				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
 											,
 							
@@ -3356,26 +3356,26 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
 				{
 			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
+				"groupId": "org.openmrs.api",
+				"artifactId": "openmrs-api",
 				"version": "2.3.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.api/openmrs-api/2.3.0",
 				
 				"scope": "COMPILE",
-				"isTransitive": true,
+				"isTransitive": false,
 				
 									"containsVulnerableCode": "unknown",
 								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 						]
 		}
@@ -3406,26 +3406,7 @@
 								
 															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
 													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.web",
-				"artifactId": "openmrs-webapp",
-				"version": "2.3.0",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
-				
-				"scope": "COMPILE",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
 													}
 											,
 							
@@ -3445,6 +3426,25 @@
 															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
 													
 															"actuallyExecutesVulnerableCode": "vulnerableLibraryCode"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.web",
+				"artifactId": "openmrs-webapp",
+				"version": "2.3.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.web/openmrs-webapp/2.3.0",
+				
+				"scope": "COMPILE",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
 						]
 		}

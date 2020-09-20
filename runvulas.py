@@ -86,7 +86,7 @@ if __name__=='__main__':
         if name in processed_projects:
             print(name, ' already processed')
             continue
-        if 'openmrs-module-coreapps' in name:
+        if 'openmrs-module-coreapps' in name or 'openmrs-module-emrapi' in name:
             print('skipping coreapps as too big in RAM')
             continue
 

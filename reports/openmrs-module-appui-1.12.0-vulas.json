@@ -1,6 +1,6 @@
 {
 	"vulasReport": {
-		"generatedAt": "13.09.2020 16:01:39",
+		"generatedAt": "19.09.2020 20:09:41",
 		"generatedFor": {
 			"space": "9237B647D37B9176837CB401EE2922F6",
 			"groupId": "org.openmrs.module",
@@ -54,6 +54,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -73,10 +92,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -104,6 +123,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -123,10 +161,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -151,6 +189,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -204,6 +261,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
@@ -223,10 +299,134 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-2186",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.2.1.jar",
+			"sha1": "384FAA82E193D4E4B0546059CA09572654BC3970",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0050",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.2.1.jar",
+			"sha1": "384FAA82E193D4E4B0546059CA09572654BC3970",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-1000031",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.2.1.jar",
+			"sha1": "384FAA82E193D4E4B0546059CA09572654BC3970",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-3092-FU",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-fileupload-1.2.1.jar",
+			"sha1": "384FAA82E193D4E4B0546059CA09572654BC3970",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -251,6 +451,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -323,6 +542,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -354,10 +592,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -377,6 +615,25 @@
 				"version": "1.12.0",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -423,6 +680,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -454,6 +730,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
@@ -473,10 +768,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -504,10 +799,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -537,6 +832,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -551,6 +865,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -604,6 +937,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -623,10 +975,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -651,6 +1003,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -704,6 +1075,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
@@ -754,6 +1144,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -773,10 +1182,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -823,10 +1232,91 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3523",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.28.jar",
+			"sha1": "4C3E03DD2C60B8975ED68F72AA18229DB2647196",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3586",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.28.jar",
+			"sha1": "4C3E03DD2C60B8975ED68F72AA18229DB2647196",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -854,10 +1344,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -873,10 +1363,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -904,10 +1394,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -923,10 +1413,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -993,6 +1483,37 @@
 						{
 		
 			"bug":{
+				"id":"CVE-2018-10936",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "postgresql-9.0-801.jdbc4.jar",
+			"sha1": "153F2F92A786F12FC111D0111F709012DF87C808",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
 				"id":"CVE-2013-6397",
 				"cvssScore": "n/a" ,
 				"cvssVersion": "n/a" 			},
@@ -1001,6 +1522,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1054,10 +1594,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1073,10 +1613,29 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1104,6 +1663,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
@@ -1123,10 +1701,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1154,6 +1732,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
@@ -1173,10 +1770,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1201,6 +1798,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1254,10 +1870,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1273,10 +1889,29 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1337,6 +1972,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "vulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1387,6 +2041,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1404,10 +2077,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1423,10 +2096,122 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0054",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-oxm-3.2.7.RELEASE.jar",
+			"sha1": "2C7B3DF608636DA7528A4FF2BDA8D6E8D2C62C3D",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3578",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-oxm-3.2.7.RELEASE.jar",
+			"sha1": "2C7B3DF608636DA7528A4FF2BDA8D6E8D2C62C3D",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-3192",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-oxm-3.2.7.RELEASE.jar",
+			"sha1": "2C7B3DF608636DA7528A4FF2BDA8D6E8D2C62C3D",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1454,6 +2239,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
@@ -1473,12 +2277,477 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2011-2730",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-6429",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-6430",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0054",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3578",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-3192",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-5211",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-11039",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-web-3.2.7.RELEASE.jar",
+			"sha1": "0D239D8264488B8FE3BB9A50728A1DFA8915F1AA",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3625",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-3.2.7.RELEASE.jar",
+			"sha1": "ACE95DAD73B7276754FBCC80E95A8FBBE18123B6",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-5211",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-3.2.7.RELEASE.jar",
+			"sha1": "ACE95DAD73B7276754FBCC80E95A8FBBE18123B6",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1271",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-3.2.7.RELEASE.jar",
+			"sha1": "ACE95DAD73B7276754FBCC80E95A8FBBE18123B6",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"SPR-7779",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-webmvc-3.2.7.RELEASE.jar",
+			"sha1": "ACE95DAD73B7276754FBCC80E95A8FBBE18123B6",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "nonVulnerableLibraryCode",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-0899",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "struts-core-1.3.8.jar",
+			"sha1": "66178D4A9279EBB1CD1EB79C10DC204B4199F061",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-1181",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "struts-core-1.3.8.jar",
+			"sha1": "66178D4A9279EBB1CD1EB79C10DC204B4199F061",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-1182",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "struts-core-1.3.8.jar",
+			"sha1": "66178D4A9279EBB1CD1EB79C10DC204B4199F061",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
 				"isTransitive": true,
 				
 									"containsVulnerableCode": "unknown",
@@ -1504,6 +2773,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -1523,10 +2811,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1554,6 +2842,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui",
 				"version": "1.12.0",
 				
@@ -1573,10 +2880,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1604,6 +2911,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
@@ -1623,10 +2949,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1654,10 +2980,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui",
+				"artifactId": "appui-api",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1673,10 +2999,29 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1704,10 +3049,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1737,6 +3082,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -1751,6 +3115,25 @@
 			
 			"modules": [
 										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-omod",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -1804,10 +3187,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "appui-api",
+				"artifactId": "appui-omod",
 				"version": "1.12.0",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-omod/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1827,6 +3210,25 @@
 				"version": "1.12.0",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui/1.12.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "appui-api",
+				"version": "1.12.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/appui-api/1.12.0",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,

@@ -1,6 +1,6 @@
 {
 	"vulasReport": {
-		"generatedAt": "13.09.2020 15:32:57",
+		"generatedAt": "19.09.2020 19:54:23",
 		"generatedFor": {
 			"space": "9237B647D37B9176837CB401EE2922F6",
 			"groupId": "org.openmrs.module",
@@ -66,25 +66,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
@@ -108,6 +89,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -135,10 +135,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -173,10 +173,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -266,10 +266,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -323,10 +323,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -473,25 +473,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
@@ -515,6 +496,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-omod",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -542,29 +542,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -599,10 +580,29 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -630,25 +630,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
@@ -691,6 +672,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-web-2.0",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -806,10 +806,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -844,10 +844,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -863,10 +863,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -894,10 +894,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -913,10 +913,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -951,10 +951,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1044,10 +1044,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1082,10 +1082,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1163,10 +1163,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1201,10 +1201,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1220,10 +1220,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1251,10 +1251,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1270,10 +1270,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1308,10 +1308,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1339,10 +1339,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1358,10 +1358,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1427,6 +1427,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
@@ -1450,25 +1469,6 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1496,6 +1496,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-omod",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
@@ -1519,25 +1538,6 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1584,10 +1584,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1603,10 +1603,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1927,6 +1927,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
@@ -1950,25 +1969,6 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -1996,25 +1996,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
@@ -2038,6 +2019,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-web-1.9",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2065,25 +2065,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
@@ -2107,6 +2088,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2227,10 +2227,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -2265,10 +2265,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "TEST",
 				"isTransitive": true,
@@ -2346,10 +2346,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2365,10 +2365,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2415,10 +2415,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2434,10 +2434,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2465,6 +2465,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
@@ -2488,25 +2507,6 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2603,25 +2603,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
@@ -2645,6 +2626,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2672,10 +2672,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2691,10 +2691,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2741,6 +2741,25 @@
 				{
 			
 				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
@@ -2764,25 +2783,6 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -2810,25 +2810,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
@@ -2852,6 +2833,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-web-1.9",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3115,10 +3115,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3134,10 +3134,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3165,25 +3165,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
@@ -3207,6 +3188,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3253,10 +3253,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3272,10 +3272,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3427,10 +3427,29 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3465,29 +3484,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3515,25 +3515,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
@@ -3576,6 +3557,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-omod",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3641,10 +3641,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3660,10 +3660,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3722,10 +3722,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3760,10 +3760,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3810,10 +3810,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
+				"artifactId": "allergyui-omod",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3867,10 +3867,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3898,10 +3898,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-1.9",
+				"artifactId": "allergyui-web-2.0",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -3936,10 +3936,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
+				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-1.9/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -4005,25 +4005,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
@@ -4057,6 +4038,25 @@
 													
 															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
 													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-api",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
 						]
 		}
 								,
@@ -4071,25 +4071,6 @@
 			
 			"modules": [
 										
-				{
-			
-				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-web-2.0",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
 				{
 			
 				"groupId": "org.openmrs.module",
@@ -4116,6 +4097,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-web-2.0",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -4162,25 +4162,6 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-api",
-				"version": "1.8.2",
-				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
-				
-				"scope": "PROVIDED",
-				"isTransitive": true,
-				
-									"containsVulnerableCode": "unknown",
-								
-															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
-													
-															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
-													}
-											,
-							
-				{
-			
-				"groupId": "org.openmrs.module",
 				"artifactId": "allergyui-web-1.9",
 				"version": "1.8.2",
 				
@@ -4200,10 +4181,10 @@
 				{
 			
 				"groupId": "org.openmrs.module",
-				"artifactId": "allergyui-omod",
+				"artifactId": "allergyui-api",
 				"version": "1.8.2",
 				
-				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-api/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
@@ -4223,6 +4204,25 @@
 				"version": "1.8.2",
 				
 				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-web-2.0/1.8.2",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+											,
+							
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "allergyui-omod",
+				"version": "1.8.2",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/allergyui-omod/1.8.2",
 				
 				"scope": "PROVIDED",
 				"isTransitive": true,
