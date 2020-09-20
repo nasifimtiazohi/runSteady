@@ -1,0 +1,850 @@
+{
+	"vulasReport": {
+		"generatedAt": "20.09.2020 13:31:47",
+		"generatedFor": {
+			"space": "9237B647D37B9176837CB401EE2922F6",
+			"groupId": "org.openmrs.module",
+			"artifactId": "legacyui",
+			"version": "1.6.0"
+		},
+		"isAggregated": true,
+	
+				"aggregatedModules": [
+											{
+					"groupId": "org.openmrs.module",
+					"artifactId": "legacyui",
+					"version": "1.6.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs.module",
+					"artifactId": "legacyui-api",
+					"version": "1.6.0"
+				}
+											,
+								{
+					"groupId": "org.openmrs.module",
+					"artifactId": "legacyui-omod",
+					"version": "1.6.0"
+				}
+					],
+			
+		"configuration": [
+			{ "name": "exceptionThreshold",
+			  "value": "dependsOn" },
+			{ "name": "exceptionScopeBlacklist",
+			  "value": "TEST, PROVIDED" },
+			{ "name": "exceptionExcludedBugs",
+			  "value": "" }
+		],
+	
+		"vulnerabilities": [
+		
+								{
+		
+			"bug":{
+				"id":"CVE-2018-20433",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "c3p0-0.9.2.1.jar",
+			"sha1": "11B29CCB286D34EB804B7F6A3786809C9BD2E1B7",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2019-5427",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "c3p0-0.9.2.1.jar",
+			"sha1": "11B29CCB286D34EB804B7F6A3786809C9BD2E1B7",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"BEANUTILS-463",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-beanutils-1.7.0.jar",
+			"sha1": "5675FD96B29656504B86029551973D60FB41339B",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"COLLECTIONS-580",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "commons-collections-3.2.2.jar",
+			"sha1": "8AD72FE39FA8C91EAAF12AADB21E0C3661FE26D5",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1313",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "derbyclient-10.4.2.0.jar",
+			"sha1": "B3452B5E026E418462FD5464BB7571C7FF1EE8A5",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1000632",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "dom4j-1.6.1.jar",
+			"sha1": "5D3CCC056B6F056DBF0DDDFDF43894B9065A8F94",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2015-3253",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "groovy-all-2.4.6.jar",
+			"sha1": "478FEADCA929A946B2F1FB962BB2179264759821",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-6814",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "groovy-all-2.4.6.jar",
+			"sha1": "478FEADCA929A946B2F1FB962BB2179264759821",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-3558",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "hibernate-validator-4.2.0.Final.jar",
+			"sha1": "EAC2DB0A9D86A9749724FE93D43AFFFA8106F25E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-12629",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "lucene-queryparser-4.10.4.jar",
+			"sha1": "432D1E1B0AA99695BCAADF49C380C87B17A6F01B",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3523",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.6.jar",
+			"sha1": "380EF5226DE2C85FF3B38CBFEFEEA881C5FCE09D",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-3586",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "mysql-connector-java-5.1.6.jar",
+			"sha1": "380EF5226DE2C85FF3B38CBFEFEEA881C5FCE09D",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-10936",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "postgresql-8.3-603.jdbc4.jar",
+			"sha1": "C1545D956CC2013E8623F7CBC4DE320BE80AC646",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-6429",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-core-4.1.4.RELEASE.jar",
+			"sha1": "8DF582421867CF7298658E00CD2E9E460B697B05",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1272",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-core-4.1.4.RELEASE.jar",
+			"sha1": "8DF582421867CF7298658E00CD2E9E460B697B05",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"SPR-7779",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-core-4.1.4.RELEASE.jar",
+			"sha1": "8DF582421867CF7298658E00CD2E9E460B697B05",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1270",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-expression-4.1.4.RELEASE.jar",
+			"sha1": "89109BC913900CEFF3107AD66EDB60D1ACB3AED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2018-1275",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-expression-4.1.4.RELEASE.jar",
+			"sha1": "89109BC913900CEFF3107AD66EDB60D1ACB3AED2",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2011-2730",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "spring-test-4.1.4.RELEASE.jar",
+			"sha1": "32878E9AC8B78D0E41821B832C34B9EB1580417A",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "TEST",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2014-0107",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xalan-2.7.0.jar",
+			"sha1": "A33C0097F1C70B20FA7DED220EA317EB3500515E",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2009-2625",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.8.0.jar",
+			"sha1": "CFD3EBE2F8034E660344F9108C3E2DAF78C29CC3",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2012-0881",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.8.0.jar",
+			"sha1": "CFD3EBE2F8034E660344F9108C3E2DAF78C29CC3",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-4002",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xercesImpl-2.8.0.jar",
+			"sha1": "CFD3EBE2F8034E660344F9108C3E2DAF78C29CC3",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2013-7285",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xstream-1.4.3.jar",
+			"sha1": "3427C153A5AD0F2CFA923528AD8BE875C8CB1CFF",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2016-3674",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xstream-1.4.3.jar",
+			"sha1": "3427C153A5AD0F2CFA923528AD8BE875C8CB1CFF",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+								,
+						{
+		
+			"bug":{
+				"id":"CVE-2017-7957",
+				"cvssScore": "n/a" ,
+				"cvssVersion": "n/a" 			},
+			"filename": "xstream-1.4.3.jar",
+			"sha1": "3427C153A5AD0F2CFA923528AD8BE875C8CB1CFF",
+			
+			"modules": [
+										
+				{
+			
+				"groupId": "org.openmrs.module",
+				"artifactId": "legacyui-api",
+				"version": "1.6.0",
+				
+				"href": "http://localhost:8033/backend/../apps/#/9237B647D37B9176837CB401EE2922F6/org.openmrs.module/legacyui-api/1.6.0",
+				
+				"scope": "PROVIDED",
+				"isTransitive": true,
+				
+									"containsVulnerableCode": "unknown",
+								
+															"potentiallyExecutesVulnerableCode": "noLibraryCodeAtAll",
+													
+															"actuallyExecutesVulnerableCode": "noLibraryCodeAtAll"
+													}
+						]
+		}
+				]
+	}
+}

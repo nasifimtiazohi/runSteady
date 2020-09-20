@@ -75,6 +75,8 @@ def run(path):
     os.system('mv ./target/vulas/report/vulas-report.json /home/simtiaz/runSteady/reports/{}-vulas.json'.format(project))
     file.close()
     os.system('mv ./{} /home/simtiaz/runSteady/reports/{}'.format(logfileName, logfileName))
+    os.system('mvn clean')
+    os.system('reset')
     
 if __name__=='__main__':
     paths = get_projects()
@@ -86,9 +88,10 @@ if __name__=='__main__':
         if name in processed_projects:
             print(name, ' already processed')
             continue
-        if 'openmrs-module-coreapps' in name or 'openmrs-module-emrapi' in name:
+        if 'openmrs-module-coreapps' in name or 'openmrs-module-emrapi' in name or 'openmrs-module-reference' in name or 'registrationcore' in name:
             print('skipping coreapps as too big in RAM')
             continue
 
         run(path)
+    
     
