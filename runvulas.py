@@ -63,7 +63,7 @@ def run(path):
     print(start)
 
     for c in commands:
-        os.system(c)
+        os.system(c + " -Dmaven.repo.local=/home/simtiaz/.m2/repository -pl '!omod'")
         #os.system(c + ' > /dev/null 2>&1')
         file.write(str(datetime.now())+'\n')
         print(c, "has ended")
