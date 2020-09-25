@@ -11,7 +11,7 @@ def get_projects():
     for line in lines:
         projectPaths.append(path+'/'+line)
     
-    assert len(projectPaths) == 43
+    #assert len(projectPaths) == 43
     return projectPaths 
 
 def get_processed_projects():
