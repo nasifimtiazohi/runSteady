@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 06 20:37:42 PDT 2020
+shared-3.1.10-SNAPSHOT.jar>=
+shared-3.1.10-SNAPSHOT.pom>=
+shared-3.1.10-SNAPSHOT-tests.jar>=
