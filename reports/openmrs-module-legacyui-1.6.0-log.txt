@@ -9,9 +9,4 @@
 2020-09-20 13:31:40.266926
 2020-09-20 13:31:43.316711
 2020-09-20 13:31:49.735007
-0:02:05.403911s.org/license.
-
-    Copyright (C) OpenMRS Inc. OpenMRS is a registered trademark and the OpenMRS
-    graphic logo is a trademark of OpenMRS Inc.
-====
-
+0:02:05.403911
